@@ -2,11 +2,11 @@
 
 .envelope {
     position: relative;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
     margin: 50px auto;
     cursor: pointer;
-    perspective: 100px;
+    perspective: 1000px;
     background: url('https://i.etsystatic.com/40042633/r/il/e06a35/4570051083/il_fullxfull.4570051083_qhvd.jpg');
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
