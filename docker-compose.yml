@@ -1,0 +1,7 @@
+version: '2'
+services:
+  react-letter:
+    image: react-letter
+    restart: always
+    ports:
+      - 8686:80
