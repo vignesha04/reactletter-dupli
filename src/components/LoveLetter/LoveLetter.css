@@ -15,8 +15,8 @@
   
   .flap {
     position: absolute;
-    width: 25%;
-    height: 10%;
+    width: 100%;
+    height: 50%;
     background: url('https://www.dyefor.com/cdn/shop/products/Custom-Love-Letter-Custom-Wrapping-Paper.jpg?v=1642793198&width=1445');
     transform-origin: bottom;
     transition: transform 0.8s ease;
@@ -28,8 +28,8 @@
   .body {
     position: absolute;
     top: 50%;
-    width: 25%;
-    height: 10%;
+    width: 100%;
+    height: 50%;
     background: url('https://www.dyefor.com/cdn/shop/products/Custom-Love-Letter-Custom-Wrapping-Paper.jpg?v=1642793198&width=1445');
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
