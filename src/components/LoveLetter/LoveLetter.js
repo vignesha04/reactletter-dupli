@@ -39,8 +39,6 @@ const LoveLetter = () => {
                   </div>
                 </div>
               </footer>
-    );
-  return (
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
       <div className="flap"></div>
       <div className="body"></div>
