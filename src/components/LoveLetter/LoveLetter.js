@@ -29,7 +29,17 @@ const LoveLetter = () => {
       setIsOpen(false);
     }, 800);
   };
-
+  return (
+      <footer className="page-footer">
+                <div className="container">
+                  <div className="row">
+                    <div className="col 30 s50">
+                      <h5 className="white-text">Sample project by PERSEVERANCE 1st Batch</h5>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+    );
   return (
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
       <div className="flap"></div>
@@ -44,22 +54,7 @@ const LoveLetter = () => {
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
-  return (
-      <footer className="page-footer">
-                <div className="container">
-                  <div className="row">
-                    <div className="col l6 s12">
-                      <h5 className="white-text">Sample project by PERSEVERANCE 1st Batch</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="footer-copyright">
-                  <div className="container">
-                  © 2024 Copyright Text
-                  </div>
-                </div>
-              </footer>
-    );
+  
 };
 
 export default LoveLetter;
