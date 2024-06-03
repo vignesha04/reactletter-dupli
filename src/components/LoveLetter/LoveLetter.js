@@ -35,7 +35,6 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-       <p className="grey-text text-lighten-4"> HELLO</p>
         Dear MICKY❤️👑,<br />
         Just Be Happy, Healthy, and Love yourself. I'm Always happy to see you doing well and i pray for the Best of You..<br /> 
         Really Missed youuuu :( <br />
@@ -45,6 +44,24 @@ const LoveLetter = () => {
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
+export default class Footer extends Component {
+  render() {
+    return (
+      <footer className="page-footer">
+                <div className="container">
+                  <div className="row">
+                    <div className="col l6 s12">
+                      <h5 className="white-text">Sample project by PERSEVERANCE 1st Batch</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="footer-copyright">
+                  <div className="container">
+                  © 2024 Copyright Text
+                  </div>
+                </div>
+              </footer>
+    );
 };
 
 export default LoveLetter;
