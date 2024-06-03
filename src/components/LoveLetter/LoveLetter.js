@@ -31,14 +31,14 @@ const LoveLetter = () => {
   };
   return (
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
-      <h> Rotate Your screen 🔄 Tap Here 👇, use 🎧 </h>
+      <h> Rotate your screen 🔄 Tap here 👇, Use 🎧 </h>
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Dear MICKY❤️👑,<br />
         Just Be Happy, Healthy, and Love yourself😊. I'm Always happy to see you doing well and i pray for the Best of You🥰..<br /> 
-        Really Missed youuuu 🥹 <br />
-        HAPPY BIRTHDAY MICKY👑🎂🫰🏻<br /> Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak🤲🏻 👸<br />
+        Really Missed youu 🥹 ❤️HAPPY BIRTHDAY MICKY👑🎂🫰🏻<br /> 
+        Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak🤲🏻 👸<br />
         -Your's ❤️
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
