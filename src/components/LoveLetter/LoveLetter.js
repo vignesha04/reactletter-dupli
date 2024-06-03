@@ -30,16 +30,8 @@ const LoveLetter = () => {
     }, 800);
   };
   return (
-      <footer className="page-footer">
-                <div className="container">
-                  <div className="row">
-                    <div className="col 30 s50">
-                      <h5 className="white-text">Sample project by PERSEVERANCE 1st Batch</h5>
-                    </div>
-                  </div>
-                </div>
-              </footer>
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
+      <p className="grey-text text-lighten-4"> Workflow of the Application deployment:</p>
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
