@@ -29,10 +29,22 @@ const LoveLetter = () => {
       setIsOpen(false);
     }, 800);
   };
+  const Header = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
   return (
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
+    <div>
+      {isVisible && (
+        <header>
+          <h1>My App Header</h1>
+          <button onClick={toggleVisibility}>Toggle Header</button>
+        </header>
+      )}
+    </div>
       <h1 className="grey-text text-lighten-4"> Rotate Your screen 🔄 and Tap on below Image, use 🎧 </h1>
-      <button onClick={toggleVisibility}>Toggle Header</button>
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
