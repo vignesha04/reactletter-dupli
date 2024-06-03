@@ -35,7 +35,7 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-          <p className="grey-text text-lighten-4"> ReactJs Application deployment by using Kubernetes.</p>
+       <p className="grey-text text-lighten-4"> HELLO</p>
         Dear MICKY❤️👑,<br />
         Just Be Happy, Healthy, and Love yourself. I'm Always happy to see you doing well and i pray for the Best of You..<br /> 
         Really Missed youuuu :( <3 <br />
