@@ -29,7 +29,9 @@ const LoveLetter = () => {
       setIsOpen(false);
     }, 800);
   };
+  const TransparentText = () => {
   return (
+    <div className="transparent-text">
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
       <h> Rotate your screen 🔄 Tap here 👇, Use 🎧 </h>
       <div className="flap"></div>
@@ -40,11 +42,12 @@ const LoveLetter = () => {
         Really Missed youu 🥹 ❤️HAPPY BIRTHDAY MICKY👑🎂🫰🏻<br /> 
         Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak🤲🏻 👸<br /> Take Care Always
         -Your's ❤️🙂
+      </div>    
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
-  
+  }
 };
 
 export default LoveLetter;
