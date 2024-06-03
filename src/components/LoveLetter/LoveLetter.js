@@ -35,9 +35,9 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-        Dear Micky❤️👑,<br />
-        On this special day your filled with joy, happiness and always blessed<br /> 
-        Keep smiling always i love that :) and stay happy for ever ra...<br /> Really Missed youuuu :( <br />
+        Dear MICKY❤️👑,<br />
+        Just Be Happy, Healthy, and Love yourself. I'm Always happy to see you doint well and i pray for the Best of You..<br /> 
+        <br /> Really Missed youuuu :( >3 <br />
         HAPPY BIRTHDAY MICKY ❤️👑<br /> Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak 🤲🏻 👸<br />
               -Your ❤️💝
       </div>
