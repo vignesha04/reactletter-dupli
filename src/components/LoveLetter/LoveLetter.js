@@ -31,7 +31,7 @@ const LoveLetter = () => {
   };
   return (
     <div className={`envelope ${isOpen ? 'open' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
-      <h Rotate Your screen 🔄 and Tap on below Image, use 🎧 </h>
+      <h> Rotate Your screen 🔄 and Tap on below Image, use 🎧 </h>
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
