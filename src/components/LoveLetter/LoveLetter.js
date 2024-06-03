@@ -45,7 +45,6 @@ const LoveLetter = () => {
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
-  );
 };
 
 export default LoveLetter;
