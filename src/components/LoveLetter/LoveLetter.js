@@ -44,9 +44,7 @@ const LoveLetter = () => {
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
-export default class Footer extends Component {
-  render() {
-    return (
+  return (
       <footer className="page-footer">
                 <div className="container">
                   <div className="row">
