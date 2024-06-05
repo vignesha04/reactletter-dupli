@@ -38,7 +38,7 @@ const LoveLetter = () => {
         Dear MICKY❤️👑,<br />
         The day is UR's, Just Be Happy, Healthy and Love yourself😊. I'm Always happy to see you doing well and i pray for the Best of You🥰..<br /> 
         Really Missed youuu 🥹 ❤️HAPPY BIRTHDAY MICKY👑🎂🫰🏻<br /> 
-        Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak🤲🏻 👸<br /> Take Care Always
+        Eid Milad Saeed meri jaan❤️👑, Taqabal Allah Oyatak🤲🏻 👸<br /> Always take care Raa.
         -Your's ❤️🙂  
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
