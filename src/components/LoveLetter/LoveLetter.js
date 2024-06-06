@@ -37,9 +37,9 @@ const LoveLetter = () => {
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Dear MICKY, ......The day is UR's, <br />
         Just Be Happy, Healthy and Love yourself😊. I'm Always i pray for the Best of You🥰..<br /> 
-        ❤️HAPPY BIRTHDAY MICKY👑🎂🫰🏻 <br /> 
+        HAPPY BIRTHDAY MICKY👑🎂🫰🏻 <br /> 
         Eid Milad Saeed ❤️👑 Taqabal Allah Oyatak🤲🏻 👸 <br /> Always take care ..
-        -Your's ❤️🙂      06/06/2024
+        -Your's SAM🙂      06/06/2024
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
