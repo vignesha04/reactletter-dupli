@@ -36,7 +36,7 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Dear CHANDINI, ......The day is UR's, <br />
-        Just Be Happy, Healthy and Love yourself😊. I'm Always i pray for the Best of You🥰..<br /> 
+        Just Be Happy, Healthy and Love yourself😊...<br /> 
         HAPPY BIRTHDAY TO YOU👑🎂🫰🏻 <br /> 
         Eid Milad Saeed ❤️👑 Taqabal Allah Oyatak🤲🏻 👸 <br /> Always take care ..
         -Your's SAM🙂      06/06/2024
