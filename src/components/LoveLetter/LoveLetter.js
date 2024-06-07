@@ -39,7 +39,7 @@ const LoveLetter = () => {
         Just Be Happy, Healthy and Love yourself😊...<br /> 
         HAPPY BIRTHDAY TO YOU👑🎂🫰🏻 <br /> 
         Eid Milad Saeed ❤️👑 Taqabal Allah Oyatak🤲🏻 👸 <br /> Always take care ..
-        -Your's SAM🙂      06/06/2024
+        06/06/2024
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
